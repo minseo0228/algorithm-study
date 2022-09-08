@@ -1,5 +1,5 @@
 ## Algorithm study
-민서의 얼렁뚱땅 알고리즘 공부 👍 :sparkles:
+👍 :sparkles: 민서의 얼렁뚱땅 알고리즘 공부 👍 :sparkles:
 
 
 ## 백준
@@ -13,3 +13,5 @@
 | 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |  |
 | 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |  |
 | 03 | [Bronze](https://github.com/minseo0228/algorithm-study/tree/main/Bronze) | ✔️ |
+
+## 프로그래머스
