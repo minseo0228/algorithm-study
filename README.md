@@ -3,11 +3,10 @@
 
 ## 백준
 ### Python 코딩테스트 연습
-1. 정컴통공 파이썬 스터디
-2. 개인공부
-<a href = "https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375"><img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"/>
-| No |                                     class                                     | 
-|:--:|:-------------------------------------------------------------------------------:|
-| 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |
-| 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |
-| 03 | [Bronze](https://github.com/minseo0228/algorithm-study/tree/main/Bronze) |
+1. 정컴통공 파이썬 스터디 <a href = "https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375" targer="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"/>
+2. 개인공부 
+| No |                                     class                                     |  |
+|:--:|:-------------------------------------------------------------------------------:|  |
+| 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |  |
+| 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |  |
+| 03 | [Bronze](https://github.com/minseo0228/algorithm-study/tree/main/Bronze) | ✔️ |
