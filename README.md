@@ -6,8 +6,8 @@
 1. 정컴통공 파이썬 스터디 <a href = "https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375" targer="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"/> |
 2. 개인공부 
  
-### 문제 확인 
-| No |                                     class                                     |  |
+문제 확인 
+| No |                                     class                                     | Check |
 |:--:|:-------------------------------------------------------------------------------:|  |
 | 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |  |
 | 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |  |
