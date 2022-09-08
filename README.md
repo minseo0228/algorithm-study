@@ -3,7 +3,7 @@
 
 ## 백준
 ### Python 코딩테스트 연습
-1. <a href = "https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375">정컴통공 파이썬 스터디
+1. <a href = "https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375">정컴통공 파이썬 스터디 </>
 2. 개인공부 
  
 문제 확인 
