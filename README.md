@@ -1,6 +1,5 @@
-# algorithm-study
 ## 백준
-
+### Python
 | No |                                     Project                                     | 
 |:--:|:-------------------------------------------------------------------------------:|
 | 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |
