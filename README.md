@@ -8,7 +8,7 @@
 2. 개인공부 
  
 문제 확인 
-| No |                                     class                                     | Check |
+| No |                                     lass                                     | Check |
 |:--:|:-------------------------------------------------------------------------------:|:---:|
 | 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |  |
 | 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |  |
