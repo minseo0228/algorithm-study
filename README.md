@@ -1,6 +1,12 @@
+## Algorithm study
+민서의 얼렁뚱땅 알고리즘 공부 
+
 ## 백준
-### Python
-| No |                                     Project                                     | 
+### Python 코딩테스트 연습
+1. 정컴통공 파이썬 스터디
+2. 개인공부
+<a href = "https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375"><img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"/>
+| No |                                     class                                     | 
 |:--:|:-------------------------------------------------------------------------------:|
 | 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |
 | 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |
