@@ -10,7 +10,7 @@
 | No |                                     lass                                     | Check |
 |:--:|:-------------------------------------------------------------------------------:|:---:|
 | 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |  |
-| 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |  |
+| 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) | ✅ |
 | 03 | [Bronze](https://github.com/minseo0228/algorithm-study/tree/main/Bronze) | ✔️ |
 
 ## 프로그래머스
