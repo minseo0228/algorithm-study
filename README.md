@@ -10,7 +10,14 @@
 | No |                                     lass                                     | Check |
 |:--:|:-------------------------------------------------------------------------------:|:---:|
 | 01 | [Gold](https://github.com/minseo0228/algorithm-study/tree/main/Gold) |  |
-| 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) |  |
+| 02 | [Silver](https://github.com/minseo0228/algorithm-study/tree/main/Silver) | ✅ |
 | 03 | [Bronze](https://github.com/minseo0228/algorithm-study/tree/main/Bronze) | ✔️ |
 
 ## 프로그래머스
+
+문제 확인 
+| No |                                     lass                                     | Check |
+|:--:|:-------------------------------------------------------------------------------:|:---:|
+| 01 | [level_1](https://github.com/minseo0228/algorithm-study/tree/main/programmers/level_1) |  |
+| 02 | [level_2](https://github.com/minseo0228/algorithm-study/tree/main/programmers/level_2) |  |
+| 03 | [level_3] |  |
