@@ -4,7 +4,7 @@
 
 ## 백준
 ### Python 코딩테스트 연습
-1. [파이썬 스터디](https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375)
+노션 --> [파이썬 스터디](https://www.notion.so/3bb17ce1234e4f8d92b3d30ddb26d375)
  
 문제 확인 
 | No |                                     lass                                     | Check |
