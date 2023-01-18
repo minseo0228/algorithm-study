@@ -3,10 +3,12 @@ N = int(input())
 graph = []
 for i in range(N):
     graph.append(list(input()))
+#아 미친 이거 쉬운 문제였자나...
+#처음에 그래프를 이해를 잘못해서 N = 3인경우 9명이라고 생각하고 풀어버렸다.
+#근데 이 문제는 그냥 대각선 반으로 접었을때 똑같은 문제이고 
+#한줄씩 파악만 해주면 되는 부분!!
 
 result = []
-movex = [0,1,0,-1]
-movey = [1,0,-1,0]
 def bfs(x):
     visit = [0]*N
     count = 0
