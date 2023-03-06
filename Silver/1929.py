@@ -8,7 +8,6 @@ for i in range(2,N+1):
             break
         prime[i*j] = 1
 
-print(prime)
 for i in range(M,N+1):
     if prime[i] == 0:
         print(i)
