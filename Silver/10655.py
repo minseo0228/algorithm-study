@@ -16,9 +16,7 @@ for i in range(1,N-1):
     x = abs(check[i+1][0] - check[i-1][0])
     y = abs(check[i+1][1] - check[i-1][1])
     dist2.append(x + y)
-print(dist)
-print(dist2)
-minnum = 100000
+minnum = 1000000000
 for i in range(len(dist2)):
     minnum  = min(dist2[i] + d - dist[i] - dist[i+1], minnum)
 print(minnum)
