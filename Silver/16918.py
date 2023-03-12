@@ -77,6 +77,7 @@ movey = [0,1,0,-1]
 def time3():
     while bomb:
         x,y = bomb.pop()
+        graph[x][y] = '.'
         for i in range(4):
             nx = x + movex[i]
             ny = y + movey[i]
@@ -86,7 +87,7 @@ def time3():
 
 N -= 1
 
-while True:
+while N:
     # bomb = []
     bomb = deque()
     time1()
