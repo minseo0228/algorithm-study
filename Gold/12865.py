@@ -7,7 +7,7 @@ for i in range(1,N+1): #-해줘야해서 +1씩 해줘야함
     for j in range(1,K+1): #1부터k무게까지 표를 만들었으니 반복
         w = valueList[i-1][0]
         v = valueList[i-1][1]
-        if j < w:
+        if j < w: #j 즉 가방에 찬 무게가 내가 넣어야할 얘보다 작으면 그냥 앞에 있는 애로 가져와
             result[i][j] = result[i-1][j]
         else:
             result[i][j] = max(result[i-1][j-w]+v,result[i-1][j])
