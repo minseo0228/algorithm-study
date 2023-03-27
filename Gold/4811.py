@@ -1,0 +1,16 @@
+dp = [[0]*31 for _ in range(31)]
+dp[0][0] = 0
+for i in range(1,31):
+    dp[0][i] = 1
+for i in range(1,31):
+    for j in range(i,31):
+        dp[i][j] = dp[i-1][j] + dp[i][j-1]
+# print(dp)
+while True:
+    N = int(input())
+    if N == 0:
+        break
+    if N == 1:
+        print(1)
+    else:
+        print(dp[N][N])
