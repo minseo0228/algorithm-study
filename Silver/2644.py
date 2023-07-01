@@ -7,27 +7,30 @@ for i in range(m):
     x,y = map(int,input().split())
     relation[x].append(y)
     relation[y].append(x)
-print(relation)
 
-def bfs():
+def bfs(x,y):
+    visit = [0 for _ in range(N+1)]
     bridge = 0
     q = deque()
-    q.append((a,b,bridge))
+    q.append(x)
+    end = y
+    visit[x] = 1
+    flag = 0
     while q:
-        sibiling = []
-        start,end,bridge = q.popleft()
-        sibiling = relation[start]
-        if end in sibiling:
-            bridge += 1
+        start = q.popleft()
+        for i in relation[start]:
+            if visit[i] == 0:
+                if i == end:
+                    flag = 1
+                    break
+                visit[i] = visit[start] + 1
+                q.append(i)
+        # bridge += 1
+        if flag == 1:
             break
-        elif len(sibiling) == 0:
-            bridge = -1
-            break
-        else:
-            for i in sibiling:
-                bridge += 1
-                q.append((i,end,bridge))
-    print(bridge)
+    if flag == 0:
+        print(-1)
+    else:
+        print(visit[start])
 
-bfs()
-
+bfs(a,b)

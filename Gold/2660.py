@@ -36,6 +36,6 @@ for i in range(len(result)):
     if result[i] == minnum:
         indexnum.append(i+1)
 
-print(minnum,len(indexnum))
+print(minnum-1,len(indexnum))
 for i in indexnum:
     print(i,end=" ")
