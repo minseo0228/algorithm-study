@@ -13,6 +13,3 @@ for i in range(N-2):
 
 if flag == 1:
     print(-1)
-
-
-
