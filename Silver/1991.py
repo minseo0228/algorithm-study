@@ -19,4 +19,8 @@ def bfs(x,y):
                     if graph[ny][nx] == 'k':
                         graph[ny][nx] == '.'
                         visit[ny][nx] = 1
-                        
+
+for i in range(b):
+    for j in range(a):
+        if graph[i][j] == 'v':
+            bfs(i,j)      
