@@ -15,4 +15,8 @@ def bfs(x,y):
             nx = x + movex[i]
             ny = y + movey[i]
             if visit[ny][nx] == 0:
-                if graph[ny][nx] != '#'
+                if graph[ny][nx] != '#':
+                    if graph[ny][nx] == 'k':
+                        graph[ny][nx] == '.'
+                        visit[ny][nx] = 1
+                        
