@@ -43,5 +43,6 @@ def bfs(x,y):
 for i in range(a):
     for j in range(b):
             if graph[i][j] != '#' and visit[i][j] == 0:
+                # 한번도 가보지 못한 새로운 울타리 안
                 bfs(i,j)      
 print(gsheep,gwolf)
