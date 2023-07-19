@@ -1,25 +1,28 @@
-wordlist = list(input().split())
+wordlist = list(input())
+stack = []
 result = []
-def word1(i):
-    length = len(i)
-    word = ''
-    for j in range(length):
-        word += i[length-j-1]
-    result.append(word)
-for i in wordlist:
-    indexlist = []
-    if '<' in i:
-        indexlist.append(i.index('<'))
-    print(indexlist)
-    # length = len(i)
-    # word = ''
-    # for j in range(length):
-    #     if i[j] == '<':
-    #         while True:
-    #             if 
-    #     word += i[length-j-1]
-    # result.append(word)
-    
+check = 0
 
+for i in wordlist:
+    if i == '<':
+        check = 1
+        while stack:
+            result.append(stack.pop())
+    if check == 1:
+        result.append(i)
+    if i == '>':
+        check = 0
+        continue
+    if check == 0:
+        if i == ' ':
+            while stack :
+                result.append(stack.pop())
+            result.append(i)
+        else:
+            stack.append(i)
+
+while stack :
+    result.append(stack.pop())
+    
 for i in result:
-    print(i, end=' ')
+    print(i,end='')

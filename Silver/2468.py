@@ -10,7 +10,7 @@ min_val = min(map(min,graph))
 max_val = max(map(max,graph))
 result = 0
 
-for i in range(0,max_val+1):
+for i in range(max_val+1):
     count = 0
     q = deque()
     visit = [[0]*n for _ in range(n)]
