@@ -1,6 +1,7 @@
+import math
 n = int(input())
 def is_prime(x):
-    for i in range(2,x):
+    for i in range(2,int(math.sqrt(x)+1)):
         if x % i == 0:
             return(-1)
     return(0)
@@ -8,6 +9,7 @@ def is_prime(x):
 result = 0
 for i in range(n,1004000):
     if i == 1:
+        result = 2
         continue
     if is_prime(i)==0 and str(i) == str(i)[::-1]:
         result = i
