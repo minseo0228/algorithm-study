@@ -43,5 +43,4 @@ for i in range(n):
     for j in range(i + list1[i][0],n+1):
         if dp[j] < dp[i] + list1[i][1]:
             dp[j] = dp[i] + list1[i][1]
-print(dp)
 print(max(dp))
