@@ -1,12 +1,11 @@
 N = int(input())
 numlist = list(map(int,input().split()))
-result = []
+result = [1]*N
 for i in range(N):
-    length = 1
     start = numlist[i]
     for j in range(i+1,N):
-        if start < numlist[j]:
-            length += 1
-            start = numlist[j]
-    result.append(length)
+        next = numlist[j]
+        if start < next:
+            result[j] = max(result[i]+1, result[j])
+# print(result)
 print(max(result))
