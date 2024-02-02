@@ -31,6 +31,7 @@ for i in range(1,n+1):
             result[i-1][j-1] = 0
             continue
         if r[j] == 1e9:
+            result[i-1][j-1] = 0
             continue
         else:
             result[i-1][j-1] = r[j]
