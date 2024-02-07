@@ -6,7 +6,7 @@ numlist = list(product(num,repeat=M))
 numlist = sorted(list(set(numlist)))
 for i in numlist:
     print(''.join(i))
-////
+
 from itertools import product
 
 n, m = map(int, input().split())
