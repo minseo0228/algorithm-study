@@ -1,29 +1,38 @@
 from collections import deque
-N, M = map(int,input().split())
-graph = [[] for _ in range(N+1)]
-for i in range(M):
-    a,b = map(int,input().split())
-    graph[a].append(b)
-    graph[b].append(a)
-result = [100]*(N+1)
-visit = [0]*(N+1)
-def bfs(x):
-    queue = deque()
-    visit[x] = 1
-    queue.append(x)
-    while(queue):
-        a = queue.popleft()
-        numlist = graph[a]
-        for i in numlist:
-            if visit[i] == 0: #방문하지 않은 경우 
-                visit[i] = visit[a] + 1 #저번 방문한거랑 +시켜 -> 이렇게 하면 방문 표시도 가능하고 베이컨 수도 확인 가능
-                queue.append(i)
-    # print(str(x)+':'+str(visit))
 
-          
-# 1부터 N까지 bfs돌려서 케빈 수 찾기 
-for i in range(1,N+1):
-    visit = [0]*(N+1)
-    bfs(i)
-    result[i] = (sum(visit))
-print(result.index(min(result)))
+n , m = map(int, input().split())
+relation = [[] for _ in range(n+1)]
+
+for _ in range(m):
+    a,b = map(int, input().split())
+    relation[a].append(b)
+    relation[b].append(a)
+
+def search_bacon(x):
+    visit = [0]*(n+1)
+    relations = [0]*(n+1)
+    q = deque()
+    q.append((x,0))
+    visit[x] = 1
+    while q:
+        start, r = q.popleft()
+        for i in relation[start]:
+            if visit[i] == 0:
+                visit[i] = 1
+                q.append((i, r+1))
+                relations[i] = r+1
+
+    return relations
+
+
+max_num = 1e9
+for i in range(1,n+1):
+    list1 = search_bacon(i)
+    # print(list1)
+    # s = sum(list1[1:i])+sum(list1[i+1:])
+    s = sum(list1)
+    if s < max_num:
+        result = i
+        max_num = s
+print(result)
+        
